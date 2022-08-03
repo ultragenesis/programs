@@ -1,0 +1,907 @@
+/************************************************
+BITACORA TECNICA HIPOTECARIO-CASA FIJA-HABI
+************************************************/
+SERVIDORES: CAQUEZA,GUAZAPA,ARABELA
+BASE DATOS: KLCREDHIPT
+ESQUEMA:CreditoHiptCons
+JDBC: JDBC/CreditoHiptCons_KLCREDHIPT
+Usuario: OPEAPLD_KL5
+************************************************/
+SERVICIO VIABILIDAD
+invocacion con 1 --genrea  la informacion del cliente 
+invocacion con 2 --firme
+************************************************/
+KLK83401 - KLK834
+KL835E-TIPO-CREDITO 06- HIPOTECARIO UVR
+************************************************/
+SERVICIO VIABILIDAD
+parametros servidor de jdeveloper 12
+Administrador ID: weblogic
+pass:Admin2022*
+************************************************/
+COTUHE
+http://10.10.10.26:7001/console 
+cotuhe.bancoavvillas.net:7003/PJBA_CreditoHiptCons_crearLogTratamDatos/resources/crear 
+usuario: desarrollo
+pass: s1useneste
+************************************************/
+Test Weblogic 14.
+                                                                          Chivata1              Chivata2
+Cluster 4 Web Services (Colocacion                                        Server14              Server24             7006
+************************************************/
+PRD Weblogic 14                                                             
+                                                                          Jerico1                  Jerico2                 Jerico3         Puerto
+Cluster 4 Web Services (Colocacion                                        Server14              Server24             Server34              7006
+
+
+************************************************/
+CAQUEZA  -oracle 19  
+puerto 1525
+base KLCREDHIPT
+ESQUEMA:  CreditoHiptCons     
+CLAVE: CR3d1t0hip 
+USUARIO: OPEAPLD_KL5    
+PASS: KL05opeahip 
+oracle.jdbc.OracleDriver
+7 ofertas comerciales
+************************************************/
+--GUAZAPA 
+--ARABELA
+
+
+chaconmm
+LUciachacon0505
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+espere
+https://canaloficinasdesa.bancoavvillas.net:4443/Aplicaciones/Login 
+mire si puede ingresar
+para qa es
+https://canaloficinastest.bancoavvillas.net:4443/Aplicaciones/Login 
+y debe pedir permisos de firewall
+1016034423, TEST1234
+
+
+
+
+https://canaloficinas01desa.bancoavvillas.net:9443/apps/login/org/index.html 
+puede ingresar con su usuario y clave de novell
+
+
+RDK595 DOMINA 398418 REQ
+LOG APROBACION EN FIRME
+KL320K_APROB_CTLOG
+pin inpresora : 100244 
+
+---otp de contact
+--validacion
+https://10.10.10.88:9444/PFBA_CanalOtros289/sca/WSBA_CanalOtros_validarOtpV03
+940005 WSBA_CanalOtros_validarOtpV03 GEK23005
+--notificar validacion
+https://10.10.10.88:9444/PFBA_CanalOtros294/sca/WSBA_CanalOtros_notificarValidacionOtp
+200156 WSBA_CanalOtros_notificarValidacionOtp
+SERVICIO EN Z (RD-NOTIFICARVALIDACIONOTP)
+UNA VEZ SE LLAMA ESTE SERVICIO ESTE TIENE UN NODO RESTREQUEST QUE LLAMA A LAS URL DE CONTACT-OTP-VALIDATION
+ESTAS
+URL Ambiete de Desarrollo:                                                                                                                                                                                                                                
+https://7tpu3a078e.execute-api.us-east-2.amazonaws.com/securityManagement/contact-otp-validation                                                                                                                                                          
+Url Ambiente de pruebas:                                                                                                                                                                                                                                  
+https://y3pcs1mcdc.execute-api.us-east-2.amazonaws.com/securityManagement/contact-otp-validation                                                                                                                                                          
+Url Ambiente produccion:                                                                                                                                                                                                                                  
+https://eofawz5fv8.execute-api.us-east-2.amazonaws.com/securityManagement/contact-otp-validation     
+
+
+FormatLogsDatapower.exe -h 10.10.22.11 -h 10.10.22.12 -u herreraja -a Produccion -f \\carex2\Esb_OpeJAdmonSistema390001\Datapwp -x "*2022-01-03*" -x "*2022-02-03*" -s WSBA_CarteraTarjetaCred_generarOtpPriCmp -s WSBA_CarteraTarjCred_activarTarjetaCreditoV02 -s WSBA_CarteraTarjetaCred_generarOtpPriCmp -s WSBA_CarteraTarjCred_activarTarjetaCreditoV02 -s WSBA_CarteraTarjetaCred_activarTarjetaFirstData -s WSBA_CarteraTarjetaCred_activarTarjetaCredito -s WSBA_CarteraTarjetaCred_logNovedades -l D:\LOG_DPW\
+
+
+weblogic 12c
+http://ccplukunu:7001/console/login/LoginForm.jsp 
+weblogic 11 c
+http://candoshi:7777/console/login/LoginForm.jsp 
+user:desarrollo
+pass:s1useneste
+,PARM='/TEST(,,,TCPIP&10.10.111.105%8002:)'
+url nueva fortify
+https://isistinnew/ssc/#!/
+RUTA REPORTES CONTACT
+\\PAUNA\IntercambioUsuarios\Aplicativo_Usuario\CreditoHiptCons_CobJOperContactCenter001
+50000001
+FormatLogsDatapower.exe -h 10.10.22.11 -h 10.10.22.12 -u herreraja -a Produccion -f 
+\\carex2\Esb_OpeJAdmonSistema390001\Datapwp -x "*2022-01-03*" -x "*2022-02-03*" -s WSBA_CarteraTarjetaCred_generarOtpPriCmp -s WSBA_CarteraTarjCred_activarTarjetaCreditoV02 -s WSBA_CarteraTarjetaCred_generarOtpPriCmp -s WSBA_CarteraTarjCred_activarTarjetaCreditoV02 -s WSBA_CarteraTarjetaCred_activarTarjetaFirstData -s WSBA_CarteraTarjetaCred_activarTarjetaCredito -s WSBA_CarteraTarjetaCred_logNovedades -l D:\LOG_DPW\
+
+los spool de produccion quedan en la ruta 
+DESA.AV60.LISLIB 
+extencion supervisores 
+17787
+***************************************************************
+RUTA PARA VALIDAR CENTRALES  
+http://puinave/InterpretaWeb/default.aspx 
+SE INGRESA SIN NADA
+ ***************************************************************
+ORDEN ESTIMADORES PARA METODOLOGIA:
+met 567 = 631457
+met 556 = 631457
+met 562 = 457
+met 561 = 457
+
+/*********************
+CUANDO NO DEJA HACE NE UN PROGRAMA SE DEBE HACER ESTO PARA FINALIZAR LOS PROCESOS
+CEMT I TASK(*) 
+LA CUESTION ES QUE SALEN ASI
+Tas(0000058) Tra(TMQM)           Sus Tas Pri( 255 )        
+   Sta(S ) Use(STCDESA ) Uow(DB36D13B8025FA01)              
+AL LADO LE PONE 
+Tas(0000058) Tra(TMQM)           Sus Tas Pri( 255 ) FP   
+   Sta(S ) Use(STCDESA ) Uow(DB36D13B8025FA01)            
+PARA FINALIZAR PROCESO
+******************************************************************************************************************************
+ruta archivo positivos TCJ678D
+desarrollo
+\\shikha\IntercambioTercerosD\Redes\Redeban_002\DesdeBanco\CanalOtros\Compensacion\Entradas
+pruebas
+\\shikha\IntercambioTercerosT\Redes\Redeban_002\DesdeBanco\CanalOtros\Compensacion\Entradas
+produccion
+\\shikha\IntercambioTerceros\Redes\Redeban_002\DesdeBanco\CanalOtros\Compensacion\Entradas
+ruta archivo BAT TCJ682D TCS682D_1.TXT ARCHIVO CON SCRIPT DE FTP HACIA REDEBAN
+\\PAya\IntercambioDatos\Aplicativo_Aplicativo\Redeban_CanalOtros
+ruta archivo BAT TCS682D DISPARADOR DEL TCS682D_1.TXT
+\\PAya\IntercambioOperacion\Procesos\Bats\CarteraTarjCred
+LOGS = \\paya\IntercambioOperacion\Procesos\Logs\CanalOtros
+******************************************************************************************************************************
+******************************************************************************************************************************
+ruta log de generacion de otp de primera compra  GEJ121D Y GEE121D
+desarrollo
+\\calchin\IntercambioDatos\Aplicativo_Aplicativo\MultiAplicacion_MultiAplicacion\
+pruebas
+\\tupiname\IntercambioDatos\Aplicativo_Aplicativo\MultiAplicacion_MultiAplicacion\
+produccion
+\\cayambi\IntercambioDatos\Aplicativo_Aplicativo\MultiAplicacion_MultiAplicacion\
+******************************************************************************************************************************
+end points para notificacion de otp en amazon adl
+desarrollo:
+https://nmhh4sh8il.execute-api.us-east-2.amazonaws.com/dev/contact-otp-validation
+pruebas:
+https://yfwjrilt36.execute-api.us-east-2.amazonaws.com/stg/contact-otp-validation
+DEV:
+https://7tpu3a078e.execute-api.us-east-2.amazonaws.com/securityManagement/contact-otp-validation
+STG:
+https://y3pcs1mcdc.execute-api.us-east-2.amazonaws.com/securityManagement/contact-otp-validation
+**********************************************************************
+opts para pruebas encriptadas para usar en este servicio:
+https://10.10.9.200/PFBA_CanalOtros289/sca/WSBA_CanalOtros_validarOtpV03
+d7ee764668f7289605451ee28d2f62e7   ---pruebas
+0f7e7a1fd4bcc4daca48bad490d6feab ---desarrollo
+/*********************************************************************************
+ruta para cargue de empresas masivas desde aplicaciones
+ruta aplicaciones:  aplicaciones Generales/Novedades/Ordenes de Proceso 
+monitor KLK000 transaccion 060008 hay mas 
+ruta fisica para dejar el archivo masivo 
+\\pauna\Usuario_Aplicativo\RieGCreditoIndividual001_CreditoConsumo
+\\TATA\IntercambioDatos\Aplicativo_Aplicativo\CreditoHiptCons_CreditoHiptCons
+Observaciones
+•	En la ruta \\carex\RieGCreditoIndividual001_CreditoConsumo se deben cargar los archivos planos en formato .txt según la orden de proceso a ejecutar.
+•	En la ruta de aplicaciones Generales/Novedades/Ordenes de Proceso se encontraran las siguientes ordenes de proceso:          
+
+1)    KL-Actualización Parámetros Empresas:  Actualizará la información del maestro de empresas “KL525K_Empre_Mstro”. El archivo plano que se cargue en la ruta de Carex debe ser nombrado como Parametros_Empresas.txt y tener la misma estructura del maestro “KL525K_Empre_Mstro”.
+
+Nota: Los campos Montos de Créditos por Empresa (En ruta y desembolsados) y Nro Créditos Complementados que Tiene la Empresa con el Banco (En Ruta y desembolsados), a pesar que en el archivo de cargue se diligencien no serán modificados.
+
+2)    KL-Actualización Contactos Empresas: Actualizará la información del maestro de empresas “KL545K_Empre_Conta”. El archivo plano que se cargue en la ruta de Carex debe ser nombrado como Contactos_Empresas.txt y tener la misma estructura del maestro “KL545K_Empre_Conta”. 
+
+3)    KL-Actualización Observaciones Empresas: Actualizará la información del maestro de empresas “KL530K_Obser_Empre”: El sistema adicionará las observaciones a la información ya registrada en el sistema, es decir, ninguna información será eliminada. El archivo plano que se cargue en la ruta de Carex debe ser nombrado como Observaciones_Empresas.txt  y tener la misma estructura del maestro “KL530K_Obser_Empre”.
+
+4)    KL-Actualización NIT Complementación: Actualizará la información del maestro de empresas “Ge020k_cltes_villa”. El archivo plano que se cargue en la ruta de Carex debe ser nombrado como NIT_Complementacion.txt  y la estructura es la siguiente:
+
+a)         nro_identificación: Identificación del cliente.
+b)         aplicación_usuario: Corresponde al tipo de crédito, se debe incluir 2 dígitos en texto que pueden ser:
+
+AH =  Sobregiro y anticipo de nomina 
+KC = Cartera Constructor 
+KF = Cartera Factoring 
+KI = Cartera Hipotecaria 
+KK = Cartera Comercial 
+KV = Cartera Consumo 
+KW = Cartera Terceros 
+KX = Cartera Extraval 
+KY = Cartera internacional 
+MA = Cartera Manual 
+TC = Tarjeta de crédito
+
+c)     Número_Crdto_Tot: Número del crédito a modificar.
+d)    Nro_Ind_Empre: Nuevo número de NIT con el que quedará el registro en el maestro.
+
+5)    KL-Creación Empresas: Creará la información del maestro de empresas “KL525K_Empre_Mstro”. El archivo plano que se cargue en la ruta de Carex debe ser nombrado Creacion_Empresas.txt y tener la misma estructura del maestro “KL525K_Empre_Mstro”.
+
+6)    KL-Creación de Teléfonos y Contactos Empresas: Creará la información del maestro de empresas “KL545K_Empre_Conta”. El archivo plano que se cargue en la ruta de Carex debe ser nombrado Creacion_Telefonos_y_Contactos_Empresas.txt y debe tener la misma estructura del maestro “KL545K_Empre_Conta”. 
+
+7)    KL-Creación de Observaciones: Creará la información del maestro de empresas “KL530K_Obser_Empre”. El archivo plano que se cargue en la ruta de Carex debe ser nombrado Creacion_Observaciones_Empresas.txt y debe tener la misma estructura del maestro “KL530K_Obser_Empre”.
+
+
+
+/*********************************************************************************
+RUTA PARA ARCHIVO DE MODELOS LOGICOS C:\Users\arevaloj\IBM\rationalsdp\dataArchitect\Prueba\BD_Host_CreditoHiptCons_ES_NA_Logico.ldm
+
+ftp://itaqui/00/659/REQPR00365960/
+
+***************************************************************************************************************************************
+ruta de generacion de archivos de tarjeta
+\\pauna\IntercambioUsuarios\Aplicativo_Usuario\CarteraTarjCred_OpeDTarjetaCredito001
+***************************************************************************************************************************************
+RUTA PARA PROYECTO VISUAL DE DOCUMENTOS_EOFFICE DOMINA se debe compilar con visual 2008
+\\paya\IntercambioOperacion\Aplicativos\VisualStudio2005\Convenios\Documentos_eoffice
+\\carex\IntercambioOperacion\Aplicativos\VisualStudio2005\Convenios\Documentos_eoffice
+***************************************************************************************************************************************
+27998 LONGITUD /SIZE
+***************************************************************************************************************************************
+SEMILLA PARA VALIDACION OTP V03 EN DESARROLLO
+D93DBAB0048C7E15C971EB6E3CFEFD15180CF144D8C9ACA0EEC4086D32004889
+SEMILLA PARA VALIDACION OTP V03 EN PRUEBAS 
+9E6865F461B97582A0AD808A6564F1CF56761F1FC2884AF631E099B074401623
+
+
+http://tripledes.online-domain-tools.com/
+***************************************************************************************************************************************
+IP PARA CORRER PROCESOS BAT EN PAUNA
+servidor escritorio remoto:pauna
+usuario:TWSUSERDESA
+clave:DESA2007TW
+
+V:\IntercambioOperacion\Procesos\Bats\CarteraComercial
+V:\IntercambioOperacion\Procesos\Bats
+---------------------------------------------------------------------------------------------------------------------------------------
+ruta de para dejar el bat que dispara la etl, en esta carpeta se dejan 2 archivos el .bat y el .dtsConfig
+\\pauna\IntercambioOperacion\Procesos\Bats\CreditoHiptCons
+ejemplo: 
+	KLE720D.BAT
+	KLE720D.dtsConfig
+---------------------------------------------------------------------------------------------------------------------------------------
+ruta para dejar la etl archivo dtsx para el codigo fuente en el prroyecto es en la ruta:
+	ruta del proyecto: \\pauna\IntercambioOperacion\Aplicativos\VisualStudio2017\CreditoHiptCons\ETL\CreditoHiptCons\CreditoHiptCons.sln
+	ruta del etl o dtsx: \\pauna\IntercambioOperacion\Aplicativos\VisualStudio2017\CreditoHiptCons\ETL\CreditoHiptCons\CreditoHiptCons\KLE720D.dtsx
+---------------------------------------------------------------------------------------------------------------------------------------
+ruta donde se deja la etl o dtsx para ejecutarlo en pauna, ruta de contingencia:
+	\\pauna\IntercambioOperacion\Procesos\Contingencia
+
+luego ir directamente a pauna por escritorio remoto y ejecutar el bat.
+---------------------------------------------------------------------------------------------------------------------------------------
+ruta de generacion de logs de la etl o dtsx cuando se ejecuta con el bat desde pauna:  KLJ150E
+\\pauna\IntercambioOperacion\Procesos\Logs\CreditoHiptCons
+nota: los etl se diseñan depende de la version pero la mayoria con visual studio 2017
+-----------------------------
+archivo csv y log de eejecucion de finalizacion 
+\\pauna\IntercambioUsuarios\Usuario_Aplicativo\RieGCreditoIndividual001_CreditoConsumo
+***************************************************************************************************************************************
+RUTA PARA ARCHIVOS DE SQL DE EMPRESAS DESA.AV70.PARMLIB(SV408DAA)
+\\TATA\IntercambioDatos\Aplicativo_Aplicativo\CreditoHiptCons_CreditoHiptCons
+***************************************************************************************************************************************
+ruta onbase
+http://sentinel/onbase/Login.aspx nueva
+http://shuar/AppNet/Login.aspx 
+BERNALJA
+pass: 12345678
+***************************************************************************************************************************************
+sql pruebas
+runas /profile /user:Twsusertest@BancoAVvillas.net "C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\Ssms.exe"
+PASS TEST2007
+***************************************************************************************************************************************
+runas /profile /user:herreraja@BancoAVvillas.net "C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\Ssms.exe"
+SQL PRODUCCION tatuyo 15JUavigail29 9731674 juanjo05
+
+runas /profile /user:jimenezjfrv@BancoAVvillas.net "C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\Ssms.exe"
+SQL PRODUCCION tatuyo VAlentina9095  80814955
+***************************************************************************************************************************************
+url aplicaciones  desarrollo
+https://sesquile/aplicaciones/
+usuario: 13872001
+pass: 12345678
+***************************************************************************************************************************************
+pagina para ver el fortify
+https://isistin.bancoavvillas.net/ssc/login.jsp#!/  
+usuario de dominio y clave
+***************************************************************************************************************************************
+configuracion datapw 
+https://10.10.9.201:9090/dp/login.xml 
+usuario:temporta
+pass:avvillas
+--FileMaintenance> local> XML > tablaParametrosServicios.xml
+***************************************************************************************************************************************
+dtp Produccion
+https://10.10.22.12:9090/dp/login.xml 
+***************************************************************************************************************************************
+Ip DTP: Desarrollo
+10.10.10.88:9444/PFBA_CreditoHiptCons25/WSBA_CreditoHiptCons_consultarRetomaCredito
+***************************************************************************************************************************************
+Masivian
+URL: http://athqa.estratec.com.co/Account/Login?ReturnUrl=%2f
+saenze@bancoavvillas.com.co
+ATHavvillas-2017
+***************************************************************************************************************************************
+consulta crm
+http://arapahoe.bancoavvillas.net:7001/psp/c90avtst/?cmd=login&errorPg=ckreq&languageCd=ESP
+CRM Usuario 19383171 1-9 
+***************************************************************************************************************************************
+PARAMETROS PARA CREACION Y CONFIGURACION DE NODO EN INTEGRATION TOOLKIT
+mqsicreatebroker TESTNODE_arevaloj
+mqsisetdbparms TESTNODE_arevaloj -n cics::CICSDESA -u OAPLDEB -p CONCTGDE
+mqsistart
+mqsicreateconfigurableservice TESTNODE_arevaloj -c CICSConnection -o FCBA_CICSAPLI -n cicsServer,gatewayURL,clientApplid,clientQualifier,connectionTimeoutSecs,requestTimeoutSecs,securityIdentity -v CICIDES7,tcp://10.10.10.115:2006,arevaloj,arevaloj,120,120,CICSDESA
+mqsichangeproperties TESTNODE_arevaloj -c CICSConnection -o FCBA_CICSAPLI -n cicsServer,gatewayURL,clientApplid,clientQualifier,connectionTimeoutSecs,requestTimeoutSecs,securityIdentity -v CICIDES7,tcp://10.10.10.115:2006,arevaloj,arevaloj,120,120,CICSDESA
+mqsisetdbparms TESTNODE_arevaloj -n cics::CICSDESA -u OAPLDEB -p CONCTGDE
+mqsisetsecurity
+mqsicreateexecutiongroup TESTNODE_arevaloj -e IServer_1
+***************************************************************************************************************************************
+PARA EL FTP winscp424
+servidor:candoshi
+usuario: OPEAPLT_RD12
+PASS: dircolocacion
+port: 22
+***************************************************************************************************************************************
+---------------------CONEXION POR FTP A Shawne1
+HOST	-->	Shawne1
+USUARIO	-->	OPEAPLT_FTP
+PASS	-->	TEST3421 - dircolocacion
+PUERTO	-->	21 
+***************************************************************************************************************************************
+/<root>/u01/logsWeblogic/avvillas_domain/server3.log   o server1.log 
+\\sesquile\wwwroot\Aplicaciones\CGeneral
+***************************************************************************************************************************************
+consultar credito
+https://sesquile/aplicaciones/cgeneral/Mnto_MaestroRotat.aspx
+consultar consumo
+https://sesquile/aplicaciones/cgeneral/actualizadores.htm
+https://sesquile/aplicaciones/
+***************************************************************************************************************************************
+ftp://joarev1@10.10.1.85/'joarev1.DESA.ADL2LIB'
+ftp://joarev1@10.10.1.85/'joarev1.DESA.JCLLIB'
+ftp://joarev1@10.10.1.85/'JOAREV1.DESA.PARMLIB'
+ftp://joarev1@10.10.1.85/'JOAREV1.DESA.PARMLIB'
+ftp://joarev1@10.10.1.85/'JOAREV1.DESA.BATCHLIB'
+ftp://joarev1@10.10.1.85/'joarev1.DESA.COPYLIB'
+ftp://joarev1@10.10.1.85/'JOAREV1.DESA.CICSLIB'
+***************************************************************************************************************************************
+JOAREV1.DESA.BATCHLIB
+JOAREV1.DESA.CICSLIB 
+JOAREV1.DESA.COPYLIB 
+JOAREV1.DESA.JCLLIB  
+JOAREV1.ISPF.ISPPROF 
+***************************************************************************************************************************************
+CEMT S PROG(KLK511 KLK484) NE 
+***************************************************************************************************************************************	
+\\pauna\IntercambioDatos\Aplicativo_Aplicativo\CanalOtros_CreditoHiptCons
+\\pauna\IntercambioUsuarios\Aplicativo_Usuario\CreditoHiptCons_CobJOperContactCenter001
+\\pauna\IntercambioUsuarios\Aplicativo_Usuario\CARTERATARJCRED_OPEDTARJETACREDITO001
+RDS349.PRODUC.CARG.DOC.TXT
+https://10.10.9.200:443/PJBA_CreditoHiptCons_calcularIngresosClienteV2/WSBA_CreditoHiptCons_calcularIngresosClienteV2
+https://10.10.9.200:443/PJBA_CreditoHiptCons_calcularIngresosClienteV2/WSBA_CreditoHiptCons_calcularIngresosClienteV2?WSDL
+C:\Users\arevaloj\IBM\IIBT10\workspace2\PFBA_CreditoHiptCons25
+ge280
+rdk700
+https://guatavita/aplicaciones/Cgeneral/
+Radicacion.aspx?accion=2&origen=F&NroFiltro=58600001278&fmtautomatic=G&tipomasivo=V&credito=5860012796&opcionintranet=9100 
+***************************************************************************************************************************************
+PARA HACER DEBUD SOBRE UN BATCH
+,PARM='/TEST(,,,TCPIP&10.10.111.105%8002:)' 
+***************************************************************************************************************************************
+https://10.10.9.200/PFBA_CreditoHiptCons25/WSBA_CreditoHiptCons_consultarRetomaCredito
+https://10.10.9.193/PJBA_Contact/WSBA_Contact_validarOTPAcreditarCliente
+https://10.10.9.200/PJBA_Contact/WSBA_Contact_validarOTPAcreditarCliente
+https://10.10.10.88:9444/PFBA_CreditoHiptCons25/WSBA_CreditoHiptCons_consultarRetomaCredito
+https://10.10.10.201/PFBA_CreditoHiptCons52/WSBA_CreditoHiptCons_radicarSegurosVolTC
+https://10.10.9.200/PFBA_CreditoHiptCons52/WSBA_CreditoHiptCons_radicarSegurosVolTC
+https://10.10.10.88:9447/PFBA_CreditoHiptCons52/WSBA_CreditoHiptCons_radicarSegurosVolTC
+http://PFBA_CreditoHiptCons25/WSBA_CreditoHiptCons_consultarRetomaCredito
+https://10.10.10.88:9444/PJBA_CreditoHiptCons_CrearCliente-PJBA_CreditoHiptCons_CrearCliente/WSBA_CreditoHiptCons_CrearCliente?WSDL
+https://10.10.10.88:9444/PJBA_CreditoHiptCons_CrearCliente-PJBA_CreditoHiptCons_CrearCliente/WSBA_CreditoHiptCons_CrearCliente
+/PFBA_CreditoHiptCons28/WRBA_CreditoHiptCons_consultarAgente
+/PFBA_CreditoHiptCons28/WRBA_CreditoHiptCons_consultarAgente
+https://10.10.10.88:9447/PFBA_CarteraTarjetaCred151/sca/WSBA_CarteraTarjetaCred_generarOtpPriCmp
+***************************************************************************************************************************************
+DESARROLLO
+CICSDESA
+AVDL
+DESA
+***************************************************************************************************************************************
+PRUEBAS
+CICSTES1
+AVTB
+TEST
+***************************************************************************************************************************************
+Autogestion -Contact
+https://d2zfhxpzadx0tt.cloudfront.net/inicio ---567
+FL
+https://d2zfhxpzadx0tt.cloudfront.net/ ---556
+
+***************************************************************************************************************************************
+ruta paya onbase para subir documentos
+Pruebas
+\\paya\Usuario_Aplicativo\CobJOperContactCenter001_Contact\EOFFICE 
+Produccion:
+\\carex\CobJOperContactCenter001_Contact\Eoffice
+***************************************************************************************************************************************
+ORIGEN
+\\SHIKHA\IntercambioTerceros1T\Redes\Ath_006\InterBanco\CanalOtros\CargueDocumental
+DESTRINO
+\\PAYA\IntercambioDatos\Aplicativo_Aplicativo\CanalOtros_CanalOtros\Cargue_Online\Documentos\ZipEntradaAplicativo
+Origen
+\\Paya\IntercambioUsuarios\Usuario_Aplicativo\CobJOperContactCenter001_Contact\EOFFICE
+Destino
+\\paya\IntercambioDatos\Aplicativo_Aplicativo\CanalOtros_CanalOtros\EOFFICE\CargueDocumental\ZipEntradaCorreo
+LUEGO PASA A
+\\PAya\IntercambioDatos\Aplicativo_Aplicativo\CanalOtros_CanalOtros\EOFFICE\CargueDocumental\GeneradoSalida
+luego a  
+\\paya\IntercambioDatos\Aplicativo_Aplicativo\CanalOtros_CanalOtros\EOFFICE\CargueDocumental\Generado
+de ahi la ruta final para kofax es
+\\10.10.9.18\IntercambioDatos\Aplicativo_Aplicativo\CanalOtros_VinculaClientes\CanalVirtual001
+***************************************************************************************************************************************
+\\paya\IntercambioOperacion\Procesos\Bats\CanalOtros
+dip
+\\shuar\CREDITO\PruebasKofax\OnBase\Imagenes_Monoplaza
+Asunto: KOFAX-CAJA DE SEGURIDAD
+ORIGEN
+\\SHIKHA\IntercambioTerceros1T\Redes\Ath_006\InterBanco\CanalOtros\CargueDocumental
+DESTRINO
+\\PAYA\IntercambioDatos\Aplicativo_Aplicativo\CanalOtros_CanalOtros\Cargue_Online\Documentos\ZipEntradaAplicativo
+***************************************************************************************************************************************
+comandos logDPW:
+D:\LOG_DPW\Release>FormatLogsDatapower.exe -h 10.10.9.201 -u herreraja -t 442 -l D:\LOG_DPW\ -a pruebas
+FormatLogsDatapower.exe -h 10.10.22.11 -u herreraja -t 442 -s WSBA_CreditoHiptCons_simularCredito -l D:\LOG_DPW\ -a produccion  
+
+D:\LOG_DPW\Release>
+FormatLogsDatapower.exe -h 10.10.22.11 -u herreraja -t 442 -s WSBA_CreditoHiptCons_simularCredito -l D:\LOG_DPW\ -a produccion   
+FormatLogsDatapower.exe -h 10.10.9.201 -u temporta -t 442 -s WSBA_CreditoHiptCons_simularCreditoV2 -l D:\LOG_DPW\ -a pruebas
+FormatLogsDatapower.exe -h 10.10.9.201 -u temporta -t 543 -s WRBA_CreditoHiptCons_simularCreditoCons -l D:\LOG_DPW\ -a pruebas
+FormatLogsDatapower.exe -h 10.10.9.201 -u temporta -t 542  -l D:\LOG_DPW\ -a pruebas
+este ultimo comando lo baja de procuccion
+***************************************************************************************************************************************
+FormatLogsDatapower.exe -h 10.10.22.11 -u arevaloj -t 442 -s WSBA_CreditoHiptCons_consultarRetomaCredito -l D:\LOG_DPW\ -a produccion
+FormatLogsDatapower.exe -h 10.10.9.201 -u temporta -t 443 -s WSBA_CreditoConsumo_simularPreaprobados01 -l D:\LOG_DPW\ -a pruebas
+FormatLogsDatapower.exe -h 10.10.9.201 -u temporta -t 542 -s /PJBA_CreditoHiptCons_viabilidadTarjetaCredito/WRBA_CreditoHiptCons_viabilidadTarjetaCredito/resources/consultarViabilidadTC -l D:\LOG_DPW\ -a pruebas
+FormatLogsDatapower.exe -h 10.10.9.201 -u temporta -t 542 -s /PJBA_CreditoHiptCons_viabilidadTarjetaCredito/WRBA_CreditoHiptCons_viabilidadTarjetaCredito -l D:\LOG_DPW\ -a pruebas
+FormatLogsDatapower.exe -h 10.10.9.201 -u temporta -t 542 -l D:\LOG_DPW\ -a pruebas
+***************************************************************************************************************************************
+para las mediaciones rest en desarrollo el grupo de configuracion del servicio es el 
+LBG_Esb_004 
+***************************************************************************************************************************************
+dtp pruebas
+https://10.10.9.200/PJBA_CreditoHiptCons_simularCreditoV2/WSBA_CreditoHiptCons_simularCreditoV2
+dtp desarrollo
+https://10.10.10.201/PFBA_CreditoHiptCons25/WSBA_CreditoHiptCons_consultarRetomaCredito
+bus desarrollo
+https://10.10.10.88:9444/PFBA_CreditoHiptCons28/WRBA_CreditoHiptCons_consultarAgente
+***************************************************************************************************************************************
+https://10.10.10.201/PFBA_CreditoHiptCons25/WSBA_CreditoHiptCons_consultarRetomaCredito
+https://10.10.9.200/PFBA_CreditoHiptCons25/WSBA_CreditoHiptCons_consultarRetomaCredito
+https://10.10.10.88:9444/PFBA_CreditoHiptCons39/WSBA_CreditoHiptCons_viabilidadTarjetaCredito
+dtp pruebas
+https://10.10.9.200:543/PFBA_CreditoHiptCons28/WRBA_CreditoHiptCons_consultarAgente
+bus pruebas
+https://10.10.9.239:9444/PFBA_CreditoHiptCons28/WRBA_CreditoHiptCons_consultarAgente
+desarrollo
+https://10.10.10.201/PFBA_CreditoConsumo05Web/sca/WSBA_CreditoConsumo_simularPreaprobados01
+https://10.10.10.75/aplicaciones/wsservices/wsConsultaCentrales.asmx
+https://10.10.9.200/PFBA_CanalOtros289/sca/WSBA_CanalOtros_validarOtpV03
+https://10.10.9.200/PFBA_CanalOtros289/sca/WSBA_CanalOtros_validarOtpV03
+https://10.10.10.201/PJBA_CreditoHiptCons_calcularIngresosClienteV2/WSBA_CreditoHiptCons_calcularIngresosClienteV2
+https://10.10.10.88:9444/PFBA_CreditoHiptCons23/WSBA_CreditoHiptCons_obtenerIngresosCliente
+https://10.10.10.88:9448/PFBA_CreditoHiptCons65/WRBA_CreditoHiptCons_firmarPagareV2
+
+https://10.10.10.88:9444/PFBA_CreditoHiptCons23/WSBA_CreditoHiptCons_obtenerIngresosCliente
+http://localhost:7800/PFBA_CreditoHiptCons28/WRBA_CreditoHiptCons_consultarAgente
+https://10.10.10.201/PFBA_CreditoConsumo05Web/sca/WSBA_CreditoConsumo_simularPreaprobados01
+https://10.10.10.201/PFBA_CreditoConsumo05Web/sca/WSBA_CreditoConsumo_simularPreaprobados01/WEB-INF/wsdl/WSBA_CreditoConsumo_simularPreaprobados01_WSBA_CreditoConsumo_simularPreaprobados01Http_Service.wsdl
+***************************************************************************************************************************************
+KLI150K  ---TABLA DE PARAMETRIAS
+KLT022 ----GRUPOS
+KLT007----AGENTES
+***************************************************************************************************************************************
+proiyecto modificado para desarrollo
+D:\lupall\PJBA_CreditoHiptCons_simularCreditoV2\PJBA_CreditoHiptCons_simularCreditoV2\classes
+
+        String url_jks_ssl = "D://Certificados//candoshi//Candoshi.jks";
+        String url_jks_wss = "D://Certificados//candoshi//Candoshi.jks";
+        String pass_keystore_ssl = "avvillas";
+        String pass_keystore_wss = "avvillas";
+        String nom_Certificado = "candoshi.bancoavvillas.net";
+
+
+https://10.10.10.201/PFBA_CreditoHiptCons23/WSBA_CreditoHiptCons_obtenerIngresosCliente
+
+generacion reporte no boveda
+https://SESQUILE/Aplicaciones/Garantias/Informe_NoBoveda.aspx?FEC_INI=19000101&FEC_FIN=20190806&OFICINA=586&BOVEDA=-1&MULTIFUNCIONAL=-1&REGIONAL=-1&UBICACION=-1&RESPONSABLE=-1&CONDOCUMENTOS=1&LIN=-1&APL_ORI=-1
+/******************************************************************************************************************/
+DESA.AV70.PARMLIB(SV459DAA)
+; PARMLIB INTERCAMBIO DE INFORMACION APLICATIVO_APLICATIVO        
+; SERVIDOR AMANYE (NASA) PAUNA                                    
+10.10.10.18                                                       
+BANCOAVVILLAS\OPEAPLD_FTP DESA3421                                
+CD INTERCAMBIODATOS                                               
+CD APLICATIVO_APLICATIVO   
+\\PAUNA\INTERCAMBIODATOS\APLICATIVO_APLICATIVO\RRHH_GARANTIAS\FUNCIONARIOS.TXT
+/******************************************************************************************************************/
+DESA.AV70.PARMLIB(SV408DAA)
+; PARMLIB INTERCAMBIO DE INFORMACION APLICATIVO_APLICATIVO  
+; SERVIDOR TATUYO (TATA)                                    
+10.10.10.19                                                 
+BANCOAVVILLAS\OPEAPLD_FTP DESA3421                          
+CD INTXRCAMBIODATOS                                         
+CD APLICATIVO_APLICATIVO                                    
+\\TATA\INTERCAMBIODATOS\APLICATIVO_APLICATIVO\GARANTIAS_GARANTIAS\GAE070D_RESPONSABLES_ULTIMA_MOD.TXT                    
+/******************************************************************************************************************/
+DESA.AV70.PARMLIB(SV001DAU)
+; PARMLIB INTERCAMBIO DE INFORMACION APLICATIVO_USUARIO  
+; SERVIDOR CAREX  (PAUNA)                                
+10.10.10.18                                              
+BANCOAVVILLAS\OPEAPLD_FTP DESA3421                       
+CD INTERCAMBIOUSUARIOS                                   
+CD APLICATIVO_USUARIO        
+\\TATA\INTERCAMBIOUSUARIOS\APLICATIVO_USUARIO\GARANTIAS_OPEJCARTERACOMERCIAL001\//DD:ENTRADA REPORTE_FONDOS.TXT                       
+***************************************************************************************************************************************
+como calcular el block size para jcl creacion de archivo
+LRECL= longitud del registro nrode caracteres en una fila
+BLKSIZE=INT(27998/LRECL) * LRECL
+***************************************************************************************************************************************
+***************************************************************************************************************************************
+dtp desarrollo
+https://10.10.10.201
+bus desarrollo
+https://10.10.10.88:9444
+***************************************************************************************************************************************
+\\TATA\IntercambioDatos\Aplicativo_Aplicativo\Garantias_Garantias\GAJ120D.GA181S.NOBOV.CSV
+***************************************************************************************************************************************
+KLK375 CALUCLO DE INDA
+KLK440 OPERACIONES DE INDA LA LLAMA EL KLK207
+***************************************************************************************************************************************
+Aplicaciones
+Desarrollo https://sesquile/aplicaciones/
+Pruebas http://guatavita/aplicaciones/
+***************************************************************************************************************************************
+Usuario: 13872001
+Clave: 12345678
+***************************************************************************************************************************************
+Datapower desarrollo y pruebas, usuario y clave es la de red
+https://10.10.9.201:9090/login.xml?session=false
+Datapower producción, usuario y clave es la de red
+https://10.10.22.12:9090/dp/login.xml
+***************************************************************************************************************************************
+Interpreta pruebas
+para configurar convenios ir a Administracion>convenios
+http://puinave/interpretaweb/loginpage.aspx
+***************************************************************************************************************************************
+Weblogic desarrollo 11g
+http://candoshi:7777/console/login/LoginForm.jsp
+usuario: desarrollo
+clave: s1useneste
+***************************************************************************************************************************************
+Weblogic desarrollo 12C
+http://apaneca:7001/console/login/LoginForm.jsp
+usuario: desarrollo
+clave: S1Useneste2$
+***************************************************************************************************************************************
+FORTIFY
+https://isistin.bancoavvillas.net/ssc/login.jsp#!/
+usuario y clave es la de red
+***************************************************************************************************************************************
+Aplicaciones
+Desarrollo https://sesquile/aplicaciones/
+Pruebas http://guatavita/aplicaciones/
+Usuario: 13872001
+Clave: 12345678
+
+Datapower desarrollo y pruebas, usuario y clave es la de red
+https://10.10.9.201:9090/login.xml?session=false
+
+Datapower producción, usuario y clave es la de red
+https://10.10.22.12:9090/dp/login.xml
+
+Interpreta pruebas
+http://puinave/interpretaweb/loginpage.aspx
+
+Weblogic desarrollo 11g
+http://candoshi:7777/console/login/LoginForm.jsp
+usuario: desarrollo
+clave: s1useneste
+
+Weblogic desarrollo 12C
+http://apaneca:7001/console/login/LoginForm.jsp
+usuario: desarrollo
+clave: S1Useneste2$
+
+FORTIFY
+https://isistin.bancoavvillas.net/ssc/login.jsp#!/
+usuario y clave es la de red
+***************************************************************************************************************************************
+FormatLogsDatapower.exe -h 10.10.9.201 -u temporta -t 443 -s WSBA_CreditoConsumo_simularPreaprobados01 -l D:\LOG_DPW\ -a desarrollo
+***************************************************************************************************************************************
+ruta biometria excel TCJ655D
+\\pauna\IntercambioUsuarios\Aplicativo_Usuario\CarteraTarjCred_OpeDTarjetaCredito002\Outsourcing\Domina_001\HaciaBanco\Medios
+ruta biometria excel TCJ654D
+\\pauna\IntercambioUsuarios\Aplicativo_Usuario\CarteraTarjCred_OpeDTarjetaCredito002\Outsourcing\Domina_001\HaciaBanco\Medios
+ruta biometria txt TCJ655D
+\\pauna\IntercambioUsuarios\Aplicativo_Usuario\CarteraTarjCred_OpeDTarjetaCredito001
+***************************************************************************************************************************************
+endpoint consulta centrales desarrollo
+datapower https://10.10.10.201:443/aplicaciones/wsservices/wsConsultaCentrales.asmx
+bus https://10.10.10.75/aplicaciones/wsservices/wsConsultaCentrales.asmx
+***************************************************************************************************************************************
+endpoint consulta centrales pruebas
+datapower https://10.10.9.200:443/aplicaciones/wsservices/wsConsultaCentrales.asmx
+bus https://10.10.9.191/aplicaciones/wsservices/wsConsultaCentrales.asmx
+***************************************************************************************************************************************
+ruta de aplicativo de servicios D:\PROYECTOS\RepContact\AppServices\AppServices.sln
+***************************************************************************************************************************************
+1099111227 hiupotecario
+2434684 libre inv
+***************************************************************************************************************************************
+comandos para subir pipeline
+***************************************************************************************************************************************
+==================================================SERVIDORES
+=====================================Servidor Archivos Planos
+CALCHIN		-->	desarrollo
+TUPINAME	-->	pruebas				\\TUPINAME\IntercambioDatos\Aplicativo_Aplicativo\Multiaplicacion_Multiaplicacion
+CAREX		-->	producción
+=====================================Para servicio Soap
+Candoshi 	-->	desarrollo
+Shawne1 y 2 -->	pruebas
+Apalache1 	-->	producción 
+============ADMINISTRADOR Candoshi
+http://candoshi:7777/console/login/LoginForm.jsp
+usuario: desarrollo
+clave s1useneste
+
+============SERVIDOR FTP Candoshi
+HOST	-->	Candoshi
+USUARIO	-->	OPEAPLD_FTP
+PASS	-->	DESA3421
+PUERTO	-->	21 
+============SERVIDOR FTP Shawne1
+HOST	-->	Shawne1
+USUARIO	-->	OPEAPLT_FTP
+PASS	-->	TEST3421
+PUERTO	-->	21 
+=====================================
+Servidor: CCPMOCOVE
+Usuario: OPEAPLT_FTP
+Clave: TEST3421  
+puerto 2222
+INGRESAR COMO SFTP
+=====================================Para servicio rest 
+DESARROLLO	-->	ccplukunu 
+PRUEBAS		-->	puebla1
+PRODUCCION	-->	ZULU1
+============ADMINISTRADOR ccplukunu
+http://ccplukunu:7001/console/login/LoginForm.jsp
+usuario: 	desarrollo
+clave:		s1useneste
+
+============SERVIDOR FTP ccplukunu
+HOST	-->	ccplukunu
+USUARIO	-->	OPEAPLD_FTP
+PASS	-->	DESA3421
+PUERTO	-->	21 
+=====================================BD ORACLE
+HUARI		-->	DESAPRY		SE HA USADO
+SIBERIA		-->	TESTPRY		SE HA USADO
+TARASCO		-->	PRODPRY
+
+CHONECA		-->	DESASONE
+CAMAHUA		-->	TESTSONE
+ABIRIANO	-->	PRDSONE		SE HA USADO 
+
+============SERVIDOR FTP HUARI
+HOST	-->	HUARI	10.10.10.71 
+USUARIO	-->	OPEAPLD_FTP
+PASS	-->	DESA3421 
+============SERVIDOR FTP SIBERIA
+HOST	-->	SIBERIA	10.10.10.71 
+USUARIO	-->	OPEAPLT_FTP
+PASS	-->	TEST3421
+============CONEXION BD ORACLE HUARI
+Ambiente: Desarrollo
+Nombre de conexión en tnsnames.ora: REPORT_HUARI  
+BD: desapry
+Servidor: huari
+Usuario: sone
+Contraseña: so01ne02
+
+REPORT_HUARI
+sone
+so01ne02
+host huari
+1525
+desapry
+
+============CONEXION BD ORACLE SIBERIA
+Ambiente: Pruebas
+Nombre de conexión en tnsnames.ora: REPORT_SIBERIA
+BD: testpry
+Servidor: SIBERIA
+Usuario: sone
+Contraseña: so01ne02
+
+============CONEXION BD ORACLE ABIRIANO
+Ambiente: Produccion 
+Nombre de conexión en tnsnames.ora: PRDSONE_ABIRIANO
+BD: PRDSONE
+Servidor: ABIRIANO
+=====================================
+Tata
+CAYAMBI
+=====================================
+PAUNA
+PAYA
+==============REMOTO PAUNA
+BANCOAVVILLAS\TWSUSERDESA
+DESA2007TW 
+=====================================VISTA DE ARQUITECTURA SOLO PUEDE EL JEFE				
+Bajar Vista de Arquitectura de Produccion, Modificarlo e ingresar el weblogic
+https://sv832.bancoavvillas.net:4443/ArquitecturaTI/
+=====================================ADMINISTRADOR DE FORTY
+https://isistin.bancoavvillas.net/ssc/login.jsp#!/
+
+=====================================DATAPOWER
+URL:		https://10.10.9.201:9090/login.xml
+USUARIO:	temporta
+CLAVE: 		avvillas 
+=====================================APLICACIONES SESQUILE
+URL:		http://sesquile/aplicaciones/ 
+USUARIO:	13872001
+CLAVE:		12345678 
+=====================================APLICACIONES GUATAVITA
+URL:		https://guatavita/aplicaciones/
+USUARIO:	13872001
+CLAVE:		12345678 
+=====================================APLICACIONES WAUNANA
+URL:		http://waunana/aplicaciones/ 
+=====================================APLICACIONES Masiviam 
+URL:		http://athqa.estratec.com.co
+=====================================================
+HUARI		DESAPRY		SE HA USADO
+SIBERIA		TESTPRY		SE HA USADO
+TARASCO		PRODPRY
+
+CHONECA		DESASONE
+CAMAHUA		TESTSONE
+ABIRIANO	PRDSONE		SE HA USADO
+
+Bajar Vista de Arquitectura de Produccion, Modificarlo e ingresar el weblogic
+https://sv832.bancoavvillas.net:4443/ArquitecturaTI/
+================================================BOLSILLO TABLA SQL
+SV408DAA	TATA
+SV414DAA	CALCHIN				HERNAN TXT --> TOCA AGREGAR ESTE PARLIB
+
+SV408DAA	DESA	TATA
+			TEST	CAL
+================================================================================================================================================
+----onbase
+Agradecemos su ayuda ejecutando el proceso CRJ055D en ambiente de pruebas ya que se requiere ver la actualización de cedulas cargadas en onbase.
+En el paso020 fue necesario tomar el archivo de ayer 20200210.
+Ya se ejecutó también el CRJ130D.
+se debe ejecutar CRJ130D y  CRJ055D
+================================================================================================================================================
+herreraja
+12JUavigail24
+12JUavigail24
+juherr1
+juanjo15
+9731674
+
+url nueva escritorios virtuales
+https://trabajoremotoavv.bancoavvillas.net/
+
+Url ADL
+Slack
+https://join.slack.com/t/avaldigitallabs/invite/enQtMjY1ODkwNjgwOTU0MC1jZWFhZjJhYjY3MzZmODJiZWE4NGJhMGE0OWEzMGVhZjJjMWE4YjFhZDNhNDlkN2M2NGEyNTEzYTBkMmYzODFm?x=x-p304923056658-1101050295360-2656705018787
+Jira
+https://id.atlassian.com/signup/invite?signature=eyJraWQiOiJtaWNyb3NcL2FpZC1hY2NvdW50XC85ZjM0YzdjY2tqN2Q3bWNkIiwiYWxnIjoiUlMyNTYifQ.eyJhdWQiOiJsaW5rLXNpZ25hdHVyZS12YWxpZGF0b3IiLCJzdWIiOiJhcmV2YWxvakBiYW5jb2F2dmlsbGFzLmNvbS5jbyIsIm5iZiI6MTYzNTQyOTA4OCwic2NvcGUiOiJpbnZpdGUiLCJpbmZvQ29kZSI6Imludml0ZWRVc2VyIiwiaXNzIjoibWljcm9zXC9haWQtYWNjb3VudCIsImV4cCI6MTYzNjAzMzg4OCwiaWF0IjoxNjM1NDI5MDg4LCJqdGkiOiIzMzIxYTI2Ni0xOTI0LTQyM2ItYjhiZC1iNDUxODRkNTk2NTkifQ.kQw48hZxlT26JCyBVsdLKt4Aw69JHayazdoI-QqfWKFcYZ83f-aCck0HW-3puESfnZhNoliIOP4Bg-EYSuNzH8Um7w6LP53QqQ-iN-qrJnc3HgDzLBJ8w9OdRwFlWa0BAjREHbcjLueF-UFMdz7m4L60i89fPdeSyip_9ypczqN7F83yuTd75hc8ZehH3RrcolNmTomjOl4zuP4QRoUNk9M5iY2BzAG1P8k9CHtSghQ1Oh353DKSA4yMElJGGfq2SKeuL8P4OYQiWqr-Qp-r3Nu2pOL-BVd2ahUfKmQ6lMaAfkav_guMUNn9TEAZcSFyyb9hASTK1opDXG2WOjNi9w&infoCode=invitedUser&atlOrigin=eyJpIjoiZGE3MThkMWZkOTFlNGIyMWI5ZDQ4Mzk5ODM0ODcwNjMiLCJwIjoiYWRtaW4ifQ&continue=https%3A%2F%2Favaldigitallabs.atlassian.net
+user: arevaloj@bancoavvillas.com.co
+pass: sa0101SA0101
+Confluence
+https://id.atlassian.com/signup/invite?signature=eyJraWQiOiJtaWNyb3NcL2FpZC1hY2NvdW50XC85ZjM0YzdjY2tqN2Q3bWNkIiwiYWxnIjoiUlMyNTYifQ.eyJhdWQiOiJsaW5rLXNpZ25hdHVyZS12YWxpZGF0b3IiLCJzdWIiOiJhcmV2YWxvakBiYW5jb2F2dmlsbGFzLmNvbS5jbyIsIm5iZiI6MTYzNTQyOTA4OCwic2NvcGUiOiJpbnZpdGUiLCJpbmZvQ29kZSI6Imludml0ZWRVc2VyIiwiaXNzIjoibWljcm9zXC9haWQtYWNjb3VudCIsImV4cCI6MTYzNjAzMzg4OCwiaWF0IjoxNjM1NDI5MDg4LCJqdGkiOiIzMzIxYTI2Ni0xOTI0LTQyM2ItYjhiZC1iNDUxODRkNTk2NTkifQ.kQw48hZxlT26JCyBVsdLKt4Aw69JHayazdoI-QqfWKFcYZ83f-aCck0HW-3puESfnZhNoliIOP4Bg-EYSuNzH8Um7w6LP53QqQ-iN-qrJnc3HgDzLBJ8w9OdRwFlWa0BAjREHbcjLueF-UFMdz7m4L60i89fPdeSyip_9ypczqN7F83yuTd75hc8ZehH3RrcolNmTomjOl4zuP4QRoUNk9M5iY2BzAG1P8k9CHtSghQ1Oh353DKSA4yMElJGGfq2SKeuL8P4OYQiWqr-Qp-r3Nu2pOL-BVd2ahUfKmQ6lMaAfkav_guMUNn9TEAZcSFyyb9hASTK1opDXG2WOjNi9w&infoCode=invitedUser&atlOrigin=eyJpIjoiZGE3MThkMWZkOTFlNGIyMWI5ZDQ4Mzk5ODM0ODcwNjMiLCJwIjoiYWRtaW4ifQ&continue=https%3A%2F%2Favaldigitallabs.atlassian.net%2Fwiki
+GitHub
+https://github.avaldigitallabs.com/avaldigitallabs/sso
+john.arevalo@avaldigitallabs.com
+pas:yMGqFYR*1
+https://avaldigitallabs.atlassian.net/browse/ATC-5673
+
+gmail
+john.arevalo@avaldigitallabs.com
+pas:yMGqFYR*1
+
+aws
+https://us-east-1.signin.aws/platform/login?workflowStateHandle=6246b7a3-8244-4c5f-8af7-c041edee6599
+arevaloj@bancoavvillas.com.co
+pass:
+ADLtcMigration2021$
+
+
+https://aval-aws.awsapps.com/login/?client_id=3bec6266d4c83882&redirect_uri=https%3A%2F%2Fportal.sso.us-east-1.amazonaws.com%2Fauth%2Fwd&organization=aval-aws&state=QVlBQmVFWGZ1WDJpaDUvcmRRaW55M1pNMXhzQUlnQUJBQk5FWVhSaFVHeGhibVZUZEdGMFpWQmhjbUZ0QUFsUVpYSmxaM0pwYm1VQUFRQUhZWGR6TFd0dGN3QkxZWEp1T21GM2N6cHJiWE02ZFhNdFpXRnpkQzB4T2pJM05qYzROemd6T1RZNU5qcHJaWGt2TVRSbFlXTXdNelV0TUdKaVpDMDBNalZqTFdGaFptSXRNRGRpT0RVNVpUUTNNMk0wQUxnQkFnRUFlQ0JWVjJmMlJTMXg3MzlWRHVKMTY4aThscUNZUmx4WDQrY1o4Q3RuUmowOUFaNHprc2lRMW1vZ1Zya09ldGdUamVNQUFBQitNSHdHQ1NxR1NJYjNEUUVIQnFCdk1HMENBUUF3YUFZSktvWklodmNOQVFjQk1CNEdDV0NHU0FGbEF3UUJMakFSQkF4M2RsZURhRmpZMFlHVjcwUUNBUkNBTzNJc2s5cU5pdGJxWmVmUzJnQ2RMbTdwemNUcTFzbVRpSE1sY3oyZG9YMmFxK01NY2JrRmZXaEVqQ0Y1eXloRmJSaTlFTEtIc1VZeXlHNUhBZ0FBQUFBTUFBQVFBQUFBQUFBQUFBQUFBQUFBQUpmalRrU1FPbTZCR28rWDZ2eGxBZEQvLy8vL0FBQUFBUUFBQUFBQUFBQUFBQUFBQVFBQUFFUnpYZHZJZGVmQVRUaGhHalhVWmFhWC83cnhPRWZNUXBWU1E5YkM2THpWM1A4Q2Q3ckVYdXZjSXk2bytHSDBSVkcxOVNaT09jVEpwRDZsT0ZDY0Fnem9XeGc3Y29VL09nK1RDVThvSnBrNjhaeGYybWM9
+
+ARCHIVOS NECESARIOS PARA DOMINA
+JCL RDJ621D - RDB040
+
+RUTA: \\CALCHIN\INTERCAMBIODATOS\APLICATIVO_APLICATIVO\CANALOTROS_CANALOTROS
+* ARCHIVO DE PROFESIONES RDE200D.LISTA.PROFE.TXT
+* ARCHIVO DE PAISES RDE200D.PAIS.INTER.TXT
+* ARCHIVO DE BANCO RDE200D.BANCO.INTER.TXT
+* ARCHIVO DE PAIS DE NACIMIENTO RDE200D.PAIS.NACIM.TXT
+
+RUTA DE GENERACION DE ARCHIVOS FINALES 
+RDJ621D.SOLIC.TXT
+RDJ621D.DOCUM.TXT
+\\PAUNA\INTERCAMBIODATOS\APLICATIVO_APLICATIVO\CONVENIOS_CONVENIOS\DOCUMENTOSEOFFICE
+
+carpeta temporal
+\\PAUNA\IntercambioDatos\Aplicativo_Aplicativo\Convenios_Convenios\DocumentosEoffice\TMP\
+\\PAUNA\IntercambioUsuarios\Aplicativo_Usuario\CANALOTROS_OPEDVINCULACLIENTES001\OUTSOURCING\TGEXPRESS_001\DESDEBANCO\MEDIOS
+\\PAUNA\IntercambioDatos\Aplicativo_Aplicativo\CANALOTROS_CANALOTROS 
+
+
+ruta final pdf domina
+\\paya\IntercambioUsuarios\Aplicativo_Usuario\Convenios_OpeDVinculaClientes003
+\\paya\IntercambioUsuarios\Aplicativo_Usuario\CanalOtros_OpeDVinculaClientes001\Outsourcing\Domina_001\DesdeBanco\Medios 
+
+
+Muchachos, actualmente nos encontramos en proceso de migración de los servicios weblogic, los cuales ahora deben pasar a versión 14.1
+
+Tener presente que a partir de este momento los servicios nuevos ya deberían quedar con el WebLogic 14.1.1
+
+A continuación relaciono los servidores por ambiente:
+
+Desarrollo,   COTUHE   http://10.10.10.26:7001/console
+Usuario: desarrollo
+Clave: s1useneste
+
+Pruebas , CHIVATAS   http://10.10.9.61:7001/console  
+
+Producción, JERICOS   
+
+
+La BD Oracle, el JDK, y  el IDE de desarrollo compatibles:
+Oracle 19c
+Jdk 1.8
+JDeveloper 12
+
+
+Al momento de trabajar los servicios, tener presente :
+Firewall
+Rutas intercambio
+Archivo de parámetros
+JDBC
+el provider de Java en los servidores es de IBM
+Tratar de usar el mismo update de java 1.8 u290
+
+
